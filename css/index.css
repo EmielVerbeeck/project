@@ -1,0 +1,38 @@
+body{
+    background-image: url();
+
+}
+*{
+    color: black;
+    
+}
+h1.introTitel, .wrapper, p.intro, .leesMeer{
+    display:block;
+    background-color: darksalmon;
+    border-style: solid;
+    border-color:black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 6px;
+}
+.wrapper{
+    width: 80%;
+    overflow: hidden;
+}
+.group1{
+    display:block;
+
+    width:40%;
+    float: left;
+}
+.group2{
+    display:block;
+    padding: 1rem;
+}
+.intro, div a{
+    font-size:large;
+}
+.fontLarger{
+    font-size: larger;
+}
+
