@@ -10,3 +10,10 @@ h1, .wrapper{
     padding: 1rem;
     margin: 6px;
 }
+td{
+    border-style: solid;
+    border-color:black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 6px;
+}
