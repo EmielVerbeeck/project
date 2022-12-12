@@ -1,9 +1,24 @@
+@font-face {
+font-family: "avenir";
+src: url(../font/Avenir\ Book.ttf);
+}
+*{
+    font-family: 'avenir', Arial, sans-serif;
+}
+
+body{
+    width:80%;
+}
+
 ul.nav {
   list-style-type: none;
   margin: 2px;
   padding: 0;
   overflow: hidden;
-  background-color: cornflowerblue;
+  background-color: coral;
+    border-style: solid;
+    border-color:black;
+    border-radius: 1rem;
 }
 
 li .nav {
@@ -25,4 +40,8 @@ li a:hover {
 
 a {
     display: block;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }

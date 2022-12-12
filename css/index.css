@@ -1,6 +1,5 @@
 body{
-    background-image: url();
-
+    background-image: url(../picture/mink-mingle-g0Qdolm3K14-unsplash.jpg);
 }
 *{
     color: black;
@@ -8,7 +7,7 @@ body{
 }
 h1.introTitel, .wrapper, p.intro, .leesMeer{
     display:block;
-    background-color: darksalmon;
+    background-color: rgb(89, 182, 253);
     border-style: solid;
     border-color:black;
     border-radius: 1rem;
@@ -16,23 +15,14 @@ h1.introTitel, .wrapper, p.intro, .leesMeer{
     margin: 6px;
 }
 .wrapper{
-    width: 80%;
+    width: auto;
     overflow: hidden;
-}
-.group1{
-    display:block;
-
-    width:40%;
-    float: left;
-}
-.group2{
-    display:block;
-    padding: 1rem;
 }
 .intro, div a{
     font-size:large;
 }
-.fontLarger{
+.pSide{
     font-size: larger;
+    padding: 0;
 }
 
